@@ -1,0 +1,8 @@
+num_of_train_data : 60000
+threshold : 128
+norm_factor : 16
+max_iter : 10000
+alpha : 3
+lambda : 0.0008
+Arch : [ 200 ]
+training time :11524.5787
