@@ -1,5 +1,32 @@
 # Handwritten-Digit-Classifier-Neural-Network-with-Matlab
 
+## About the project
+This is a simple Neural Network built from skracth using Matlab for MINST dataset classification problem.
+The training is done by (full) patch gradient descent algorithm.
+
+The program includes simple pre-training processing functions like thresholding and normalization.
+The network architecture can be defined with any numver of layers as needed.
+
+We managed to get up to 96.55% accuracy on testing data with [300 200 100] and [150 150] architectures.
+
+
+## How to use
+You need to first download the training and testing data from the link: https://www.kaggle.com/oddrationale/mnist-in-csv
+The two files should be in the main project file.
+
+In the main.m file you can find settings you can adjust.
+You can have up to 60.000 training data.
+You can have dynamic learning rate by multipling the original learning rate by a constant every number of epochs.
+
+The code shows and saves many files after finishing all the epochs including:
+ - Graph and matrix of cost over the epochs.
+ - Final weights matrix
+ - Text file with training parameters.
+ - Graphs of confusion on all classes on both training data and testing data after fininshing the training.
+ - Confusion over the whole training process
+
+
+# Original Report
 ## ABSTRACT:
 
 In this project, we design an artificial neural network model that can recognize hand-written digits and
