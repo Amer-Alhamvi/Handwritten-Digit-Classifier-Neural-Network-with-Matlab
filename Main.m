@@ -31,7 +31,7 @@ number_of_classes = 10; % can be changed for diffrent datasets (for other applic
 % Dynamic learning rate options
 DYNAMIC_ALPHA = false; % dynamic alpha switch
 DYNAMIC_ALPHA_ITER = 10;
-DYNAMIC_ALPHA_ITER = 0.6;
+DYNAMIC_ALPHA_ITER_MUL = 0.6;
 
 
 %% Read Trainnig Dataset
