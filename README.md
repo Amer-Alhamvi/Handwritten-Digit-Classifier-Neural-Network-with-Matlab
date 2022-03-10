@@ -25,6 +25,9 @@ The code shows and saves many files after finishing all the epochs including:
  - Graphs of confusion on all classes on both training data and testing data after fininshing the training.
  - Confusion over the whole training process
 
+## Top 40 Test Results
+![Results](Top40Results.png)
+
 
 # Original Report
 ## ABSTRACT:
